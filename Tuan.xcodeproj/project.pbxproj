@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85DD884A1AC8E413009EC49D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85DD88491AC8E413009EC49D /* Foundation.framework */; };
+		85DD884C1AC8E413009EC49D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85DD884B1AC8E413009EC49D /* CoreGraphics.framework */; };
+		85DD884E1AC8E413009EC49D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85DD884D1AC8E413009EC49D /* UIKit.framework */; };
+		85DD88541AC8E413009EC49D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85DD88521AC8E413009EC49D /* InfoPlist.strings */; };
+		85DD88561AC8E413009EC49D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DD88551AC8E413009EC49D /* main.m */; };
+		85DD885A1AC8E413009EC49D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DD88591AC8E413009EC49D /* AppDelegate.m */; };
+		85DD885D1AC8E413009EC49D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DD885B1AC8E413009EC49D /* Main.storyboard */; };
+		85DD88601AC8E413009EC49D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DD885F1AC8E413009EC49D /* ViewController.m */; };
+		85DD88621AC8E413009EC49D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DD88611AC8E413009EC49D /* Images.xcassets */; };
+		85DD88691AC8E414009EC49D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85DD88681AC8E413009EC49D /* XCTest.framework */; };
+		85DD886A1AC8E414009EC49D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85DD88491AC8E413009EC49D /* Foundation.framework */; };
+		85DD886B1AC8E414009EC49D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85DD884D1AC8E413009EC49D /* UIKit.framework */; };
+		85DD88731AC8E414009EC49D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85DD88711AC8E414009EC49D /* InfoPlist.strings */; };
+		85DD88751AC8E414009EC49D /* TuanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DD88741AC8E414009EC49D /* TuanTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85DD886C1AC8E414009EC49D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85DD883E1AC8E413009EC49D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85DD88451AC8E413009EC49D;
+			remoteInfo = Tuan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85DD88461AC8E413009EC49D /* Tuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85DD88491AC8E413009EC49D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		85DD884B1AC8E413009EC49D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		85DD884D1AC8E413009EC49D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		85DD88511AC8E413009EC49D /* Tuan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tuan-Info.plist"; sourceTree = "<group>"; };
+		85DD88531AC8E413009EC49D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85DD88551AC8E413009EC49D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85DD88571AC8E413009EC49D /* Tuan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tuan-Prefix.pch"; sourceTree = "<group>"; };
+		85DD88581AC8E413009EC49D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85DD88591AC8E413009EC49D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85DD885C1AC8E413009EC49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85DD885E1AC8E413009EC49D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85DD885F1AC8E413009EC49D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85DD88611AC8E413009EC49D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		85DD88671AC8E413009EC49D /* TuanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85DD88681AC8E413009EC49D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		85DD88701AC8E414009EC49D /* TuanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TuanTests-Info.plist"; sourceTree = "<group>"; };
+		85DD88721AC8E414009EC49D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85DD88741AC8E414009EC49D /* TuanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuanTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85DD88431AC8E413009EC49D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DD884C1AC8E413009EC49D /* CoreGraphics.framework in Frameworks */,
+				85DD884E1AC8E413009EC49D /* UIKit.framework in Frameworks */,
+				85DD884A1AC8E413009EC49D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DD88641AC8E413009EC49D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DD88691AC8E414009EC49D /* XCTest.framework in Frameworks */,
+				85DD886B1AC8E414009EC49D /* UIKit.framework in Frameworks */,
+				85DD886A1AC8E414009EC49D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85DD883D1AC8E413009EC49D = {
+			isa = PBXGroup;
+			children = (
+				85DD884F1AC8E413009EC49D /* Tuan */,
+				85DD886E1AC8E414009EC49D /* TuanTests */,
+				85DD88481AC8E413009EC49D /* Frameworks */,
+				85DD88471AC8E413009EC49D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85DD88471AC8E413009EC49D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85DD88461AC8E413009EC49D /* Tuan.app */,
+				85DD88671AC8E413009EC49D /* TuanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85DD88481AC8E413009EC49D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85DD88491AC8E413009EC49D /* Foundation.framework */,
+				85DD884B1AC8E413009EC49D /* CoreGraphics.framework */,
+				85DD884D1AC8E413009EC49D /* UIKit.framework */,
+				85DD88681AC8E413009EC49D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85DD884F1AC8E413009EC49D /* Tuan */ = {
+			isa = PBXGroup;
+			children = (
+				85DD88581AC8E413009EC49D /* AppDelegate.h */,
+				85DD88591AC8E413009EC49D /* AppDelegate.m */,
+				85DD885B1AC8E413009EC49D /* Main.storyboard */,
+				85DD885E1AC8E413009EC49D /* ViewController.h */,
+				85DD885F1AC8E413009EC49D /* ViewController.m */,
+				85DD88611AC8E413009EC49D /* Images.xcassets */,
+				85DD88501AC8E413009EC49D /* Supporting Files */,
+			);
+			path = Tuan;
+			sourceTree = "<group>";
+		};
+		85DD88501AC8E413009EC49D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85DD88511AC8E413009EC49D /* Tuan-Info.plist */,
+				85DD88521AC8E413009EC49D /* InfoPlist.strings */,
+				85DD88551AC8E413009EC49D /* main.m */,
+				85DD88571AC8E413009EC49D /* Tuan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85DD886E1AC8E414009EC49D /* TuanTests */ = {
+			isa = PBXGroup;
+			children = (
+				85DD88741AC8E414009EC49D /* TuanTests.m */,
+				85DD886F1AC8E414009EC49D /* Supporting Files */,
+			);
+			path = TuanTests;
+			sourceTree = "<group>";
+		};
+		85DD886F1AC8E414009EC49D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85DD88701AC8E414009EC49D /* TuanTests-Info.plist */,
+				85DD88711AC8E414009EC49D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85DD88451AC8E413009EC49D /* Tuan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85DD88781AC8E414009EC49D /* Build configuration list for PBXNativeTarget "Tuan" */;
+			buildPhases = (
+				85DD88421AC8E413009EC49D /* Sources */,
+				85DD88431AC8E413009EC49D /* Frameworks */,
+				85DD88441AC8E413009EC49D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tuan;
+			productName = Tuan;
+			productReference = 85DD88461AC8E413009EC49D /* Tuan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85DD88661AC8E413009EC49D /* TuanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85DD887B1AC8E414009EC49D /* Build configuration list for PBXNativeTarget "TuanTests" */;
+			buildPhases = (
+				85DD88631AC8E413009EC49D /* Sources */,
+				85DD88641AC8E413009EC49D /* Frameworks */,
+				85DD88651AC8E413009EC49D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85DD886D1AC8E414009EC49D /* PBXTargetDependency */,
+			);
+			name = TuanTests;
+			productName = TuanTests;
+			productReference = 85DD88671AC8E413009EC49D /* TuanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85DD883E1AC8E413009EC49D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = tarena;
+				TargetAttributes = {
+					85DD88661AC8E413009EC49D = {
+						TestTargetID = 85DD88451AC8E413009EC49D;
+					};
+				};
+			};
+			buildConfigurationList = 85DD88411AC8E413009EC49D /* Build configuration list for PBXProject "Tuan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85DD883D1AC8E413009EC49D;
+			productRefGroup = 85DD88471AC8E413009EC49D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85DD88451AC8E413009EC49D /* Tuan */,
+				85DD88661AC8E413009EC49D /* TuanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85DD88441AC8E413009EC49D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DD88621AC8E413009EC49D /* Images.xcassets in Resources */,
+				85DD88541AC8E413009EC49D /* InfoPlist.strings in Resources */,
+				85DD885D1AC8E413009EC49D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DD88651AC8E413009EC49D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DD88731AC8E414009EC49D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85DD88421AC8E413009EC49D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DD88601AC8E413009EC49D /* ViewController.m in Sources */,
+				85DD885A1AC8E413009EC49D /* AppDelegate.m in Sources */,
+				85DD88561AC8E413009EC49D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DD88631AC8E413009EC49D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DD88751AC8E414009EC49D /* TuanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85DD886D1AC8E414009EC49D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85DD88451AC8E413009EC49D /* Tuan */;
+			targetProxy = 85DD886C1AC8E414009EC49D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85DD88521AC8E413009EC49D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85DD88531AC8E413009EC49D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		85DD885B1AC8E413009EC49D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85DD885C1AC8E413009EC49D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85DD88711AC8E414009EC49D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85DD88721AC8E414009EC49D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85DD88761AC8E414009EC49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85DD88771AC8E414009EC49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85DD88791AC8E414009EC49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tuan/Tuan-Prefix.pch";
+				INFOPLIST_FILE = "Tuan/Tuan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		85DD887A1AC8E414009EC49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tuan/Tuan-Prefix.pch";
+				INFOPLIST_FILE = "Tuan/Tuan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		85DD887C1AC8E414009EC49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tuan.app/Tuan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tuan/Tuan-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TuanTests/TuanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		85DD887D1AC8E414009EC49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tuan.app/Tuan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tuan/Tuan-Prefix.pch";
+				INFOPLIST_FILE = "TuanTests/TuanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85DD88411AC8E413009EC49D /* Build configuration list for PBXProject "Tuan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DD88761AC8E414009EC49D /* Debug */,
+				85DD88771AC8E414009EC49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85DD88781AC8E414009EC49D /* Build configuration list for PBXNativeTarget "Tuan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DD88791AC8E414009EC49D /* Debug */,
+				85DD887A1AC8E414009EC49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85DD887B1AC8E414009EC49D /* Build configuration list for PBXNativeTarget "TuanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DD887C1AC8E414009EC49D /* Debug */,
+				85DD887D1AC8E414009EC49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85DD883E1AC8E413009EC49D /* Project object */;
+}
