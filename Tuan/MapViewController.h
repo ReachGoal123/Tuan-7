@@ -1,13 +1,13 @@
 //
-//  ViewController.h
+//  MapViewController.h
 //  Tuan
 //
-//  Created by tarena on 15-3-30.
+//  Created by tarena on 15-4-1.
 //  Copyright (c) 2015年 tarena. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MapViewController : UIViewController
 
 @end

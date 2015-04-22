@@ -12,7 +12,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    NSUserDefaults *ud = [NSUserDefaults  standardUserDefaults];
+    BOOL isVisibled = [ud boolForKey:@"isVisibled"];
+    if (!isVisibled) {
+        
+        self.window.rootViewController = [self.window.rootViewController.storyboard instantiateViewControllerWithIdentifier:@"welcomevc"];
+        
+    }
+
     return YES;
 }
 							
